@@ -4,8 +4,7 @@ import { workExperiences, education } from "./data";
 
 const About = () => {
   const about =
-    "The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.";
-
+    "Hello! I’m Joshua Entrata, a Bachelor of Science in Computer Science student specializing in Data Science at University of Santo Tomas. I have experience in frontend development, backend development, UI/UX design, machine learning, and data analysis.";
   return (
     <>
       <section>
