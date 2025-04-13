@@ -1,0 +1,14 @@
+.header {
+  font-size: 3.625rem;
+}
+
+.description {
+  font-size: 1.125rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}

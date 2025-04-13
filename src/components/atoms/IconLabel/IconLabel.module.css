@@ -1,0 +1,10 @@
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 500px;
+}

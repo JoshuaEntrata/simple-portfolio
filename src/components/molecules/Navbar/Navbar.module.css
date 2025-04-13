@@ -1,0 +1,30 @@
+.navbar {
+  width: calc(100vw - 200px);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.links {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link:hover {
+  color: #60a5fa;
+  transform: translateY(-2px);
+  cursor: pointer;
+}

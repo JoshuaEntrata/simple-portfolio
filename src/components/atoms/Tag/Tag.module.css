@@ -1,0 +1,35 @@
+.tag {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.green {
+  background-color: #d7ffe0;
+  color: #018c0f;
+}
+
+.red {
+  background-color: #ffe0e0;
+  color: #c10000;
+}
+
+.yellow {
+  background-color: #fff9d7;
+  color: #b38f00;
+}
+
+.blue {
+  background-color: #d7f0ff;
+  color: #0077b6;
+}
+
+.gray {
+  background-color: #f0f0f0;
+  color: #555555;
+}

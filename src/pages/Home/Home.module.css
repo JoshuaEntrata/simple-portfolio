@@ -1,0 +1,35 @@
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-size: 3.625rem;
+}
+
+.name {
+  background: linear-gradient(to right, #13b0f5 3%, #e70faa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.avatar {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  background: linear-gradient(to right, #13b0f5, #e70faa) border-box;
+  mask-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}

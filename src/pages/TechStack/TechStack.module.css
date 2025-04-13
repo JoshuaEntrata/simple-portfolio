@@ -1,0 +1,21 @@
+.header {
+  font-size: 3.625rem;
+}
+
+.description {
+  font-size: 1.125rem;
+  margin-bottom: 100px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}

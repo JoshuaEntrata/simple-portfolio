@@ -1,0 +1,41 @@
+.card {
+  width: 700px;
+}
+
+.content {
+  cursor: pointer;
+  overflow: hidden;
+  max-height: 75px;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.header,
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subdetails {
+  display: flex;
+  gap: 20px;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+hr {
+  margin-top: 40px;
+}
+
+.isOpen,
+.description {
+  max-height: 700px;
+  opacity: 1;
+}
+
+.description {
+  margin-top: 40px;
+}

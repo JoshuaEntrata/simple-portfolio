@@ -1,0 +1,14 @@
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.header {
+  font-size: 3.625rem;
+}
+
+.aboutText {
+  font-size: 1.125rem;
+  width: 700px;
+}
